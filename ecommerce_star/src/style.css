@@ -1,8 +1,8 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     margin: 0;
 
 }
@@ -11,7 +11,7 @@ body{
     font-size: 2rem;
 }
 
-nav{
+nav {
     background-color: #00bbe2;
     color: white;
     display: flex;
@@ -41,6 +41,70 @@ nav{
 .nav li :active {
     background-color: tomato;
 }
+
 .nav li :hover {
     background-color: darkcyan;
+}
+
+.wrapper {
+    display: flex;
+    width: 100vw;
+}
+
+.leftNav {
+    display: flex;
+    justify-content: left;
+    gap: 2rem;
+    margin-left: 4%;
+
+}
+
+.centerNav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20%;
+    padding-right: 30%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.rightNav {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    align-content: space-between;
+    gap: 2rem;
+}
+
+.footer {
+    justify-content: center;
+    align-content: center;
+    width: 100vw;
+    background-color: #00bbe2;
+    margin-top: 5%;
+
+}
+
+.Allrights {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 5%;
+    padding-bottom: 1%;
+}
+
+
+.visacard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AdresaFooter {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-bottom: 5%;
+    padding-top: 1%;
 }
