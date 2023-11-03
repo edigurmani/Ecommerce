@@ -12,8 +12,8 @@ body {
 }
 
 nav {
-    background-color: #00bbe2;
-    color: white;
+    background-color: beige;
+    color: #00bbe2;
     display: flex;
     align-items: center;
     gap: 2rem;
